@@ -1,6 +1,3 @@
-torch==2.0.0
-transformers==4.28.0
-requests==2.31.0
-beautifulsoup4==4.12.0
-openai==0.27.0
-python-dotenv==1.0.0
+transformers
+torch==2.0.1+cu117  # Версия с поддержкой CUDA 11.7
+accelerate
